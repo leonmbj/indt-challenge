@@ -56,21 +56,13 @@ Abaixo, um exemplo de arquivo:
   
         
     O Código DaVinci,Dan Brown
-    
     A Fortaleza,Dan Brown
-    
     O Regresso,Michael Punke
-    
     Harry Potter e A Criança Amaldiçoada,J. K. Rowling
-    
     O Universon Numa Casca de Noz,Stephen Hawking
-    
     Só A Gente Sabe O Que Sente,Frederico Elboni
-    
     O Imperador De Todos Os Males,Siddhartha Mukherjee
-    
     A Morte Em Veneza & Tonio Krueger,Thomas Mann
-    
     Ensaio Sobre a Cegueira,José Saramago
     
 

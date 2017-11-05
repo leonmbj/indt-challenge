@@ -64,7 +64,7 @@
 
                                     <div class="btn btn-default image-preview-input">
                                         <span class="glyphicon glyphicon-folder-open"></span>
-                                        <span class="image-preview-input-title">Browse</span>
+                                        <span class="image-preview-input-title">Selecionar Arquivo</span>
                                         <input id="import-file" type="file" accept="text/plain, text/csv"
                                                name="file"/>
                                     </div>
@@ -128,7 +128,7 @@
 
             }
         });
-        
+
     });
 
     //    $('.alert').click(function () {

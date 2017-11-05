@@ -26,7 +26,7 @@ livros na Library App:
 
       composer global require "laravel/installer"
     
-    Tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`).
+    Tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`). Mais informações em: https://laravel.com/docs/5.5/installation
 
 - Instale as dependências do projeto (backend):
 
@@ -52,7 +52,7 @@ A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá est
 
 O arquivo de importação deve ter o formato csv, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deste arquivo deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
   
-Abaixo, um exemplo de arquivo:
+Abaixo, um exemplo de conteúdo de arquivo (o nome deste arquivo pode ser **arquivo.txt**, por exemplo):
   
         
     O Código DaVinci,Dan Brown

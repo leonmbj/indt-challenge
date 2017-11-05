@@ -56,7 +56,7 @@ Foi configurado, mas não chegou a ser utilizado:
 
       php artisan serve
 
-- Inicie o uso da aplicação:
+- Inicie o uso da aplicação no browser:
 
       http://127.0.0.1:8000/
     

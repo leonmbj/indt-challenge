@@ -54,17 +54,18 @@ livros na Library App:
   
   Abaixo, um exemplo de arquivo:
   
-  `O Código DaVinci,Dan Brown
-   A Fortaleza,Dan Brown
-   O Regresso,Michael Punke
-   Harry Potter e A Criança Amaldiçoada,J. K. Rowling
-   O Universon Numa Casca de Noz,Stephen Hawking
-   Só A Gente Sabe O Que Sente,Frederico Elboni
-   O Imperador De Todos Os Males,Siddhartha Mukherjee
-   A Morte Em Veneza & Tonio Krueger,Thomas Mann
-   Ensaio Sobre a Cegueira,José Saramago`
+        
+    O Código DaVinci,Dan Brown
+    A Fortaleza,Dan Brown
+    O Regresso,Michael Punke
+    Harry Potter e A Criança Amaldiçoada,J. K. Rowling
+    O Universon Numa Casca de Noz,Stephen Hawking
+    Só A Gente Sabe O Que Sente,Frederico Elboni
+    O Imperador De Todos Os Males,Siddhartha Mukherjee
+    A Morte Em Veneza & Tonio Krueger,Thomas Mann
+    Ensaio Sobre a Cegueira,José Saramago
+    
 
-    http://localhost:8080
 
 - **Task 3**: The command to request data of last 3 days from NASA's API:
 
@@ -76,6 +77,7 @@ The alternate way is to enter the container and run the command from there:
     
     php bin/console app:neo:fetch
     
+
 This will fetch the data from NASA's API and persist it into our MySQL database.
 On success, a message similar to the following will be shown on the console:
 

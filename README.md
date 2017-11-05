@@ -16,29 +16,29 @@ livros na Library App:
 
 - Clone este repositório no seus sistema:
 
-      `git clone https://github.com/leonmbj/indt-challenge.git`
+      git clone https://github.com/leonmbj/indt-challenge.git
 
 - Entre no diretório:
 
-      `cd indt-challenge`
+      cd indt-challenge
 
 - Instale o Laravel:
 
-      `composer global require "laravel/installer"`
+      composer global require "laravel/installer"
     
     Tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`).
 
 - Instale as dependências do projeto (backend):
 
-      `composer install`
+      composer install
     
 - Instale as dependências do projeto (frontend):
     
-      `npm install`
+      npm install
     
 - Execute o comanda abaixo para iniciar o servidor web nativo do PHP
 
-      `php artisan serve`
+      php artisan serve
 
 - Inicie o uso da aplicação:
 
@@ -86,4 +86,4 @@ Caso se tente importar autores ou livros que já tenham sido importados anterior
 
 Para executar testes unitários, execute o comando no terminal, na raiz do projeto:
 
-    `vendor/phpunit/phpunit/phpunit`
+    vendor/phpunit/phpunit/phpunit

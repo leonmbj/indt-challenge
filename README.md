@@ -26,7 +26,7 @@ livros na Library App:
 
     `composer global require "laravel/installer"`
     
-    tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`).
+    Tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`).
 
 - Instale as dependências do projeto (backend):
 
@@ -46,13 +46,13 @@ livros na Library App:
     
 ## Uso da aplicação
 
-  A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá este arquivo e irá extrair os dados e salvá-los na nuvem através da api [https://bibliapp.herokuapp.com/explorer/]
+A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá este arquivo e irá extrair os dados e salvá-los na nuvem através da api [https://bibliapp.herokuapp.com/explorer/]
 
 - **1**: Layout do arquivo de importação:
 
-  O arquivo de importação deve ter o formato csv, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
+O arquivo de importação deve ter o formato csv, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
   
-  Abaixo, um exemplo de arquivo:
+Abaixo, um exemplo de arquivo:
   
         
     O Código DaVinci,Dan Brown

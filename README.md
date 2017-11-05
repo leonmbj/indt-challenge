@@ -69,12 +69,17 @@ Abaixo, um exemplo de arquivo:
 
 - **2**: Fazer o upload:
 
-Ao abrir a raiz web do projeto [em http://127.0.0.1:8000/] teremos a tela de upload do arquivo de importação. Esta tela também mostrará os livros e seus autores que já foram importados. Clique no botão **Selecionar Arquivo**, então o selecione o arquivo correto de acordo com a formatação explicada anteriormente.
+Ao abrir a raiz web do projeto [em http://127.0.0.1:8000/] teremos a tela de upload do arquivo de importação. Esta tela também mostrará os livros e seus autores que já foram importados. Clique no botão **Selecionar Arquivo**, então selecione o arquivo correto de acordo com a formatação explicada anteriormente.
 
 Depois de selecionado o arquivo, clique no botão **Upload** para enviar o arquivo.
 
+- **3**: Resultado esperado:
+
 O sistema fará o processamento do arquivo e então retornará à mesma tela, com uma mensagem de sucesso na parte superior.
-    
+
+Também aparecerá abaixo a lista de livros e seus autores.
+
+Caso se tente importar autores ou livros que já tenham sido importados anteriormente, estes serão ignorados. Não haverá repetição de registros.
 
     
 ## Executar testes

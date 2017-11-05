@@ -10,29 +10,45 @@ livros na Library App:
 
 ## Setup
 
-- Clone this repository to your local system:
+- Instale o PHP, git, composer e suas dependências (e.g. Debian):
 
-    `git clone git@github.com:sawant/basic-backend-interview-test.git mcmakler`
+    `sudo apt install php7.1 php7.1-bcmath php7.1-bz2 php7.1-cgi php7.1-cli php7.1-common php7.1-curl php7.1-enchant php7.1-gd php7.1-imap php7.1-interbase php7.1-intl php7.1-json php7.1-ldap php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-odbc php7.1-pgsql php7.1-pspell php7.1-readline php7.1-recode php7.1-soap php7.1-sqlite3 php7.1-sybase php7.1-tidy php7.1-xml php7.1-xsl php7.1-zip apache2 apache2-dev apache2-utils libapache2-mod-php7.1 git composer curl`
 
-- Go into the directory:
+- Clone este repositório no seus sistema:
 
-    `cd mcmakler`
+    `git clone https://github.com/leonmbj/indt-challenge.git`
 
-- Use Docker Compose to orchestrate the application:
+- Entre no diretório:
 
-    `docker-compose up -d --build`
+    `cd indt-challenge`
 
-- Install/update PHP/Symfony packages:
+- Instale o Laravel:
 
-    `docker exec -it mcmakler_php_1 composer update`
-
-- Start using the application:
-
-    http://localhost:8080
+    `composer global require "laravel/installer"`
     
-## Tasks Demonstration
+    tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`).
 
-- **Task 1**: Accessing the root location should fulfill this task:
+- Instale as dependências do projeto (backend):
+
+    `composer install`
+    
+- Instale as dependências do projeto (frontend):
+    
+    `npm install`
+    
+- Execute o comanda abaixo para iniciar o servidor web nativo do PHP
+
+    `php artisan serve`
+
+- Inicie o uso da aplicação:
+
+    [http://127.0.0.1:8000/]
+    
+## Uso da aplicação
+
+  A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá este arquivo e irá extrair os dados e salvá-los na nuvem através da api [https://bibliapp.herokuapp.com/explorer/]
+
+- **1**: Accessing the root location should fulfill this task:
 
     http://localhost:8080
 

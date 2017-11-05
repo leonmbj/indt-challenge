@@ -42,13 +42,27 @@ livros na Library App:
 
 - Inicie o uso da aplicação:
 
-    [http://127.0.0.1:8000/]
+    http://127.0.0.1:8000/
     
 ## Uso da aplicação
 
   A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá este arquivo e irá extrair os dados e salvá-los na nuvem através da api [https://bibliapp.herokuapp.com/explorer/]
 
-- **1**: Accessing the root location should fulfill this task:
+- **1**: Layout do arquivo de importação:
+
+  O arquivo de importação deve ter o formato csv, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
+  
+  Abaixo, um exemplo de arquivo:
+  
+  `O Código DaVinci,Dan Brown
+   A Fortaleza,Dan Brown
+   O Regresso,Michael Punke
+   Harry Potter e A Criança Amaldiçoada,J. K. Rowling
+   O Universon Numa Casca de Noz,Stephen Hawking
+   Só A Gente Sabe O Que Sente,Frederico Elboni
+   O Imperador De Todos Os Males,Siddhartha Mukherjee
+   A Morte Em Veneza & Tonio Krueger,Thomas Mann
+   Ensaio Sobre a Cegueira,José Saramago`
 
     http://localhost:8080
 

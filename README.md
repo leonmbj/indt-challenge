@@ -8,6 +8,22 @@ livros na Library App:
 - Publicar o projeto em repositório na nuvem (github, gitlab, etc)
 - Instruções de instalação e deploy no arquivo README
 
+## Metodologia
+
+Esta solução utiliza:
+- PHP 7
+- Laravel
+- Bootstrap
+- jQuery
+- Servidor embutido do PHP (pode-se utilizar o apache)
+- Acesso à API
+
+Foi utilizado, mas não chegou a ser aprofundado:
+- Testes unitários
+
+Foi configurado, mas não chegou a ser utilizado:
+- NodeJS (angular?)
+
 ## Setup
 
 - Para instalar o PHP, git, composer e suas dependências (e.g. Debian) execute este comando no terminal:
@@ -50,7 +66,7 @@ A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá est
 
 - **1**: Layout do arquivo de importação:
 
-O arquivo de importação deve ter o formato csv, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deste arquivo deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
+O arquivo de importação deve ter o formato **csv**, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deste arquivo deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
   
 Abaixo, um exemplo de conteúdo de arquivo (o nome deste arquivo pode ser **arquivo.txt**, por exemplo):
   

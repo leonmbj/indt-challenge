@@ -16,7 +16,7 @@ Esta solução utiliza:
 - Bootstrap
 - jQuery
 - Servidor embutido do PHP (pode-se utilizar o apache)
-- Acesso à API
+- Acesso à API [https://bibliapp.herokuapp.com/explorer/]
 
 ## Setup
 

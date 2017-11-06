@@ -32,27 +32,26 @@ Esta solução utiliza:
 
       cd indt-challenge
 
-- [OPCIONAL] Instale o Laravel:
-
-      composer global require "laravel/installer"
-    
-    Tenha certeza que diretório `$HOME/.composer/vendor/bin`  (ou `$HOME/.config/composer/vendor/bin`) está contido no $PATH para que os executáveis do Laravel fiquem disponíveis (e.g.: no Debian, adidionei a linha `PATH="$HOME/.config/composer/vendor/bin:$PATH"` ao arquivo `~/.profile`). Mais informações em: https://laravel.com/docs/5.5/installation
-
 - Instale as dependências do projeto (backend):
 
       composer install
     
-- [OPCIONAL] Instale as dependências do projeto (frontend):
-    
-      npm install
-    
-- Execute o comanda abaixo para iniciar o servidor web nativo do PHP
+- Execute o comanda abaixo para iniciar o servidor web nativo do PHP (padrão)
 
       php artisan serve
 
 - Inicie o uso da aplicação no browser:
 
       http://127.0.0.1:8000/
+      
+    Caso o servidor (onde o código está) e o cliente (onde o browser é usado) sejam máquinas diferentes, executar o comando acima com as configuralções do servidor:
+          
+      php artisan serve --host=<ip do servidor> --port=8000
+      
+    E então, abra o browser no respectivo endereço:
+      
+      http://<ip do servidor>:8000/
+      
     
 ## Uso da aplicação
 

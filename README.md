@@ -20,9 +20,9 @@ Esta solução utiliza:
 
 ## Setup
 
-- Para instalar o PHP, git, composer e suas dependências, execute este comando no terminal (este comando se aplica ao Ubuntu/Debian):
+- Para instalar o PHP, git, composer e suas dependências, execute este comando no terminal (este comando se aplica ao Ubuntu/Debian e foi testado no Ubuntu 16.04 LTS):
 
-      sudo apt -y install php7.1 php7.1-bcmath php7.1-bz2 php7.1-cgi php7.1-cli php7.1-common php7.1-curl php7.1-enchant php7.1-gd php7.1-imap php7.1-interbase php7.1-intl php7.1-json php7.1-ldap php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-odbc php7.1-pgsql php7.1-pspell php7.1-readline php7.1-recode php7.1-soap php7.1-sqlite3 php7.1-sybase php7.1-tidy php7.1-xml php7.1-xsl php7.1-zip apache2 apache2-dev apache2-utils libapache2-mod-php7.1 git composer curl
+      sudo apt -y install php7.0 php7.0-bcmath php7.0-bz2 php7.0-cgi php7.0-cli php7.0-common php7.0-curl php7.0-enchant php7.0-gd php7.0-imap php7.0-interbase php7.0-intl php7.0-json php7.0-ldap php7.0-mbstring php7.0-mcrypt php7.0-mysql php7.0-odbc php7.0-pgsql php7.0-pspell php7.0-readline php7.0-recode php7.0-soap php7.0-sqlite3 php7.0-sybase php7.0-tidy php7.0-xml php7.0-xsl php7.0-zip apache2 apache2-dev apache2-utils libapache2-mod-php7.0 git composer curl nodejs npm
 
 - Clone o repositório:
 

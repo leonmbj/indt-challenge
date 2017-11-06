@@ -42,7 +42,7 @@ Esta solução utiliza:
 
       composer install
     
-- Instale as dependências do projeto (frontend):
+- [OPCIONAL] Instale as dependências do projeto (frontend):
     
       npm install
     

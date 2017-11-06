@@ -18,19 +18,13 @@ Esta solução utiliza:
 - Servidor embutido do PHP (pode-se utilizar o apache)
 - Acesso à API
 
-Foi utilizado, mas não chegou a ser aprofundado:
-- Testes unitários
-
-Foi configurado, mas não chegou a ser utilizado:
-- NodeJS (angular?)
-
 ## Setup
 
-- Para instalar o PHP, git, composer e suas dependências (e.g. Debian) execute este comando no terminal:
+- Para instalar o PHP, git, composer e suas dependências, execute este comando no terminal (este comando se aplica ao Ubuntu/Debian):
 
       sudo apt -y install php7.1 php7.1-bcmath php7.1-bz2 php7.1-cgi php7.1-cli php7.1-common php7.1-curl php7.1-enchant php7.1-gd php7.1-imap php7.1-interbase php7.1-intl php7.1-json php7.1-ldap php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-odbc php7.1-pgsql php7.1-pspell php7.1-readline php7.1-recode php7.1-soap php7.1-sqlite3 php7.1-sybase php7.1-tidy php7.1-xml php7.1-xsl php7.1-zip apache2 apache2-dev apache2-utils libapache2-mod-php7.1 git composer curl
 
-- Clone este repositório no seus sistema:
+- Clone o repositório:
 
       git clone https://github.com/leonmbj/indt-challenge.git
 
@@ -38,7 +32,7 @@ Foi configurado, mas não chegou a ser utilizado:
 
       cd indt-challenge
 
-- Instale o Laravel:
+- [OPCIONAL] Instale o Laravel:
 
       composer global require "laravel/installer"
     
@@ -68,7 +62,7 @@ A tarefa consiste em fazer o uploda de um arquivo. A aplicação percorrerá est
 
 O arquivo de importação deve ter o formato **csv**, ou seja, colunas separadas por vírgula [,] e linhas separadas por nova linha do arquivo, na sequência `Livro,Autor`.  A extensão deste arquivo deve ser ou .csv ou .txt. Se a primeira linha tiver a informação escrita `Livro,Autor`, ou `Livros,Autores`, esta linha será ignorada. 
   
-Abaixo, um exemplo de conteúdo de arquivo (o nome deste arquivo pode ser **arquivo.txt**, por exemplo):
+Abaixo, um exemplo de conteúdo de arquivo (o nome deste arquivo pode ser **livros.txt**, por exemplo, e que pode ser encontrado no repositório):
   
         
     O Código DaVinci,Dan Brown
